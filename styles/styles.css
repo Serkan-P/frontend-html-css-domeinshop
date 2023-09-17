@@ -136,6 +136,37 @@ header {
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+.review {
+    position: relative;
+    /* top and bottom | left and right */
+    margin: 50px 0;
+    /* Radius is set for all 4 sides */
+    border-radius: 10px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.2);
+    /* top | right | bottom | left */
+    padding: 50px 100px 50px 150px;
+}
+
+.quote-icon {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.reviewer-icon {
+    width: 44px;
+    height: 44px;
+    /* Radius is set for all 4 sides */
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.reviewer-name {
+    display: inline;
+    font-style: italic;
+    margin-left: 20px;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
