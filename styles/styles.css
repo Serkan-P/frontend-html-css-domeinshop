@@ -32,13 +32,38 @@ body {
     color: #1C2B32;
 }
 
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
+h1, h2 {
+    text-align: center;
+}
+
 h1 {
     font-weight: 600;
     font-size: 100px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 25px;
+    /* top and bottom | left and right */
+    margin: 50px 0;
 }
 
 input, select, textarea, button {
@@ -68,14 +93,15 @@ header {
 }
 
 .header-input {
-    font-family: inherit;
     background-color: transparent;
+    font-size: 15px;
     width: 300px;
     /* top-left | top-right | bottom-right | bottom-left */
     border-radius: 50px 0 0 50px;
     margin-top: 25px;
     padding: 25px 30px;
     border: 2px solid #1C2B32;
+    outline: none;
 }
 
 .header-input::placeholder {
@@ -84,20 +110,43 @@ header {
 }
 
 .header-button {
-    font-family: inherit;
     color: #FFF;
     font-size: 15px;
     background-color: #1C2B32;
     margin-left: -5px;
     /* top-left | top-right | bottom-right | bottom-left */
     border-radius: 0 50px 50px 0;
-    margin-top: 25px;
     padding: 25px 30px;
-    border: none;
+    border: 2px solid #1C2B32;
+}
+
+.header-button:hover {
+    background-color: #5c8da3;
+    border: 2px solid #5c8da3;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+.helpdesk-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.helpdesk-button {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 15px;
+    background-color: #1C2B32;
+    /* Radius is set for all 4 sides */
+    border-radius: 50px;
+    padding: 25px 30px;
+    border: 2px solid #1C2B32;
+}
+
+.helpdesk-button:hover {
+    background-color: #5c8da3;
+    border: 2px solid #5c8da3;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
