@@ -22,18 +22,22 @@ Table of Contents:
 /* CSS Reset */
 * {
     box-sizing: border-box;
+    /* Apply to all four sides */
     margin: 0;
+    /* Apply to all four sides */
     padding: 0;
 }
 
 /* Font Setup */
 body {
+    /* A font family name and a generic family name */
     font-family: Poppins, sans-serif;
     color: #1C2B32;
 }
 
 main {
     max-width: 1000px;
+    /* top and bottom | left and right */
     margin: 0 auto;
 }
 
@@ -70,7 +74,6 @@ input, select, textarea, button {
     font-family: inherit;
 }
 
-
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -87,6 +90,7 @@ header {
 .header-content {
     max-width: 1000px;
     text-align: center;
+    /* top and bottom | left and right */
     margin: 0 auto;
     /* top | right | bottom | left */
     padding: 200px 0 350px 0;
@@ -99,7 +103,9 @@ header {
     /* top-left | top-right | bottom-right | bottom-left */
     border-radius: 50px 0 0 50px;
     margin-top: 25px;
+    /* top and bottom | left and right */
     padding: 25px 30px;
+    /* width | style | color */
     border: 2px solid #1C2B32;
     outline: none;
 }
@@ -116,18 +122,25 @@ header {
     margin-left: -5px;
     /* top-left | top-right | bottom-right | bottom-left */
     border-radius: 0 50px 50px 0;
+    /* top and bottom | left and right */
     padding: 25px 30px;
+    /* width | style | color */
     border: 2px solid #1C2B32;
 }
 
 .header-button:hover {
     background-color: #5c8da3;
+    /* width | style | color */
     border: 2px solid #5c8da3;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+
+/*///////////// 3.3 Support /////////////*/
+
 .helpdesk-image {
+    /* Radius is set for all 4 sides */
     border-radius: 10px;
     width: 100%;
 }
@@ -139,19 +152,36 @@ header {
     background-color: #1C2B32;
     /* Radius is set for all 4 sides */
     border-radius: 50px;
+    /* top and bottom | left and right */
     padding: 25px 30px;
+    /* width | style | color */
     border: 2px solid #1C2B32;
 }
 
 .helpdesk-button:hover {
     background-color: #5c8da3;
+    /* width | style | color */
     border: 2px solid #5c8da3;
 }
 
-/*///////////// 3.3 Support /////////////*/
-
-
 /*///////////// 3.4 Faq /////////////*/
 
+.faq-question {
+    /* top and bottom | left and right */
+    margin: 20px 0;
+}
+
+.faq-answer {
+    color: #ffffff;
+    background-color: #899CA0;
+    /* Radius is set for all 4 sides */
+    border-radius: 10px;
+    /* Apply to all four sides */
+    padding: 20px;
+}
+
+.faq-question:hover {
+    cursor: pointer;
+}
 
 /*///////////// 3.5 Footer /////////////*/
