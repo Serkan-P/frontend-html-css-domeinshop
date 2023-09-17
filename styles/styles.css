@@ -15,7 +15,6 @@ Table of Contents:
 ////////////////////////////////////////////////////////////////////////*/
 
 
-
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
@@ -37,6 +36,14 @@ body {
     2. Typography
 ////////////////////////*/
 
+h1 {
+    font-weight: 600;
+    font-size: 100px;
+}
+
+input, select, textarea, button {
+    font-family: inherit;
+}
 
 
 /*////////////////////////
@@ -44,21 +51,58 @@ body {
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: top;
+}
 
+.header-content {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    /* top | right | bottom | left */
+    padding: 200px 0 350px 0;
+}
+
+.header-input {
+    font-family: inherit;
+    background-color: transparent;
+    width: 300px;
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 50px 0 0 50px;
+    margin-top: 25px;
+    padding: 25px 30px;
+    border: 2px solid #1C2B32;
+}
+
+.header-input::placeholder {
+    color: #1C2B32;
+    font-size: 15px;
+}
+
+.header-button {
+    font-family: inherit;
+    color: #FFF;
+    font-size: 15px;
+    background-color: #1C2B32;
+    margin-left: -5px;
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 0 50px 50px 0;
+    margin-top: 25px;
+    padding: 25px 30px;
+    border: none;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
-
 
 
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
