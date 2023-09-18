@@ -82,7 +82,7 @@ input, select, textarea, button {
 /*///////////// 3.1 Header /////////////*/
 
 header {
-    background-image: url("/assets/images/mountains.jpg");
+    background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: top;
 }
